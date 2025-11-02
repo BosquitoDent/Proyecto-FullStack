@@ -17,7 +17,7 @@ export default function Login() {
       setCargando(true)
       if (email === "admin@music.com" && pass === "1234") {
         localStorage.setItem("session", "ok")
-        nav("/")
+        nav("/app")
       } else {
         setError("Credenciales inválidas")
       }
@@ -57,4 +57,5 @@ export default function Login() {
       </div>
     </div>
   )
+
 }
