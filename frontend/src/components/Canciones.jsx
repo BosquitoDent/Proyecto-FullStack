@@ -169,7 +169,7 @@ export default function Canciones() {
               {enviando ? "Añadiendo..." : "Añadir"}
             </button>
           </form>
-          <div className="help">Rellena título y artista. El estado de ánimo es opcional.</div>
+          <div className="help">Rellena título, artista y el estado de ánimo</div>
         </div>
 
         <div className="card">
@@ -218,4 +218,5 @@ export default function Canciones() {
       </div>
     </>
   )
+
 }
